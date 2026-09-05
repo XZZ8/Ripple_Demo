@@ -1,0 +1,59 @@
+/* Ripple 2026 unified palette: playful, calm and consistent across every screen. */
+html,body{background:var(--aqua);color:var(--ink)}
+.demo-stage{background:radial-gradient(circle at 12% 12%,var(--blush) 0 14%,transparent 35%),radial-gradient(circle at 88% 84%,var(--leaf) 0 16%,transparent 38%),var(--aqua)}
+.phone-shell{background:var(--cream);border-color:var(--ink);box-shadow:0 28px 80px #174f4738}
+.screen,.main-screen,.main-content{background:var(--cream)}
+.status-bar,.page-top,.segmented,.filter-row,.bottom-nav,.subnav,.chat-top,.composer{background:rgba(255,253,248,.96)}
+.status-bar,.page-top,.segmented,.bottom-nav,.subnav,.chat-top{border-color:var(--line)}
+.dynamic-island,.home-indicator{background:var(--ink)}
+.brand-mark,.mini-brand,.eyebrow,.change-link,.pinned-activity small{color:var(--teal)}
+.brand-mark i{background:var(--pink)}
+.auth-screen{background:linear-gradient(160deg,var(--cream) 0 55%,var(--aqua) 55%)}
+.face-coral{background:var(--pink)}.face-mint{background:var(--teal)}
+.auth-card,.identity-card,.form-card,.calendar-card,.plan-card,.post-tile,.pinned-activity,.chat-row,.generated-poster{background:var(--surface);border-color:var(--line);box-shadow:0 12px 28px #24675c17}
+.phone-field,.phone-field input,.auth-card input,.activity-form input,.activity-form textarea,.activity-form select,.composer input{background:#fffdf8;border-color:var(--line);color:var(--ink)}
+.primary-button,.generate-button{background:var(--teal)!important;color:#fff!important;box-shadow:0 9px 22px #10b48e32!important}
+.secondary-button,.wide-button,.poster-tools button,.change-image-button,.capacity-row button{background:#fffdf8!important;border-color:var(--line)!important;color:var(--ink)!important}
+.setup-screen,.denied-screen{background:linear-gradient(180deg,var(--cream) 0 52%,#eaf5e4 100%)}
+.privacy-visual{background:var(--aqua);color:var(--teal)}
+.orbit-a{border-color:var(--pink)}.orbit-b{border-color:var(--leaf)}
+.privacy-note,.privacy-strip{background:#e8f6ef;color:#285f53;border:1px solid #c8eadc}
+.avatar-preview,.avatar-chip,.message-avatar{background:#fffdf8;border-color:var(--aqua)}
+.generated-name,.choice.active{background:var(--teal);color:#fff;border-color:var(--teal)}
+.interest-bubble{color:var(--ink);border-color:#ffffffaa;box-shadow:0 8px 18px #174f4714}
+.bubble-0{background:var(--aqua)}.bubble-1{background:var(--blush)}.bubble-2{background:var(--leaf)}.bubble-3{background:var(--pink)}.bubble-4{background:var(--cream)}
+.interest-bubble.selected{outline:3px solid var(--teal);outline-offset:2px}
+.page-top:after{background:var(--pink);color:#fff}
+.segmented button.active{color:var(--teal)}.segmented button.active:after{background:var(--teal)}
+.filter-row button{background:#fffdf8;border-color:var(--line);color:var(--muted)}
+.filter-row button.active{background:var(--teal);border-color:var(--teal);color:#fff}
+.poster-photo-grid{background:linear-gradient(180deg,#f9edd1 0%,#edf7e9 100%);padding:10px 9px 28px;gap:8px;align-items:start}
+.poster-template-card,.poster-template-card.poster-tall{height:304px!important;border:2px solid #fffdf8;border-radius:16px;box-shadow:0 9px 20px #285e531c;background:var(--aqua)}
+.poster-template-card img{object-fit:cover;object-position:center}
+.poster-scrim{background:linear-gradient(180deg,rgba(20,59,52,.02) 8%,rgba(20,59,52,.16) 46%,rgba(13,49,43,.9) 100%)}
+.poster-category{background:var(--teal)}
+.poster-state{background:var(--cream)!important;color:var(--ink)!important}
+.poster-host b{background:var(--cream)}
+.poster-template-preview{background:var(--aqua);border:2px solid #fffdf8;box-shadow:0 14px 34px #174f4725}
+.poster-edit-chip{background:var(--cream);color:var(--ink)}.poster-edit-chip svg{color:var(--pink)}
+.publish-button,.publish-circle{background:var(--pink)!important;box-shadow:0 9px 22px #f775a940!important}
+.bottom-nav{border-top:1px solid var(--line)}
+.bottom-nav button{color:#78918a}.bottom-nav button.active{color:var(--teal)}
+.bottom-nav button.active .nav-icon{background:#dff4ea}.bottom-nav .publish-nav{color:var(--pink)}.publish-circle{border-color:#fffdf8}
+.detail-sheet{background:var(--surface)}.detail-hero{background:var(--aqua)}
+.host-row>span{background:var(--blush)}
+.status-badge.joined,.unread{background:var(--teal);color:#fff}.status-badge.cancelled{background:var(--blush);color:#853450}
+.map-canvas{background:var(--aqua)}
+.map-road{background:var(--cream);box-shadow:0 0 0 2px #fffdf8}
+.map-park{background:var(--leaf);color:#35664e}.map-river{background:#71cbc7}
+.search-area,.location-button,.map-preview{background:var(--surface);border-color:var(--line);color:var(--ink)}
+.map-marker{background:var(--pink);border-color:#fffdf8;box-shadow:0 8px 18px #174f4730}
+.calendar-card{background:var(--surface)}
+.dates button.selected{background:var(--teal);color:#fff}.dates button.has-plan:after{background:var(--pink)}
+.validation-note{background:var(--cream);color:#6f5630;border:1px solid #eddcae}
+.chat-screen{background:linear-gradient(180deg,var(--aqua) 0 58%,var(--leaf) 100%)}
+.message p{background:#fffdf8;color:var(--ink)}.message.mine p{background:var(--teal);color:#fff}
+.suggested-replies button{border-color:#86cab9;background:#fffdf8;color:#286657}
+.system-message{background:#fffdf89c;color:#3f625b}
+.chat-thumb,.pin-icon{background:var(--blush)}
+.empty-state{background:var(--surface);border-color:var(--line)}
